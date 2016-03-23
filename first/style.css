@@ -2,27 +2,40 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #ddd;
-}
 header {
-  width: 100%;
+  width: 1000px;
   height: 175px;
   background-color: #545454;
 }
 
-.container {
-  background-color: #fff;
-  width: 1300px;
+.leftcolumn {
+  background-color: lightgray;
+  width: 150px;
   height: 750px;
-  margin: auto;
+  float: left;
 }
 
-footer {
+.middlecontainer {
+  width: 700px;
+  height: 750px;
+  float: left;
+}
+
+.topmiddle {
+  background-color: white;
+  width: 700px;
+  height: 675px;
+}
+
+.bottommiddle {
   background-color: #222222;
-  width: 1300px;
-  height: 100px;
-  margin: auto;
+  width: 700px;
+  height: 75px;
+}
+
+.rightcolumn {
+  background-color: lightgray;
+  width: 150px;
+  height: 750px;
+  float: left;
 }
