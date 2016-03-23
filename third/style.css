@@ -2,53 +2,54 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin:0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.row {
-  height: calc(100% / 7);
-  width: 100%;
-}
-
-.one {
+.rowone {
   background-color: #D8D8D8;
-  padding: 12px;
-  padding-left: 25px;
+  height: 89px;
+  padding: 10px;
+  width: 715px;
 }
 
-.empty {
+.insidebox {
+  background-color: #4A90E2;
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+
+.textrow {
   background-color: white;
-  height: calc(200%/7);
+  height: 190px;
+  width: 715px;
 }
 
 p {
   color: ###808286;
-  font-size: 25px;
-  padding: 36px;
+  font-size: 19px;
+  line-height: 20px;
+  padding: 30px;
+  margin: 15px;
 }
 
-.two {
+.rowtwo {
   background-color: #4A90E2;
+  height: 103px;
+  width: 715px;
 }
 
-.three {
+.rowthree {
   background-color: #50E3C2;
+  height: 103px;
+  width: 715px;
 }
 
-.four {
+.rowfour {
   background-color: #B8E986;
+  height: 103px;
+  width: 715px;
 }
 
-.five {
-  background-color: #F8E71C;
-}
-
-.img-placeholder {
-  background-color: #4A90E2;
-  height: 80px;
-  width: 80px;
+.rowfive {
+  background-color: #F9E553;
+  height: 103px;
+  width: 715px;
 }
